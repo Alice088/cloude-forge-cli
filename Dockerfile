@@ -11,7 +11,7 @@ COPY . .
 
 RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build \
     -ldflags="-s -w" \
-    -o /build/bin/api ./cmd/api
+    -o /build/bin/app ./cmd/api
 
 
 FROM alpine:3.21

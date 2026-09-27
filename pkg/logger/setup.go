@@ -2,7 +2,7 @@
 package logger
 
 import (
-	"go-template/internal/config"
+	"Alice088/cloude-forge-cli/internal/config"
 	"os"
 
 	"github.com/rs/zerolog"
